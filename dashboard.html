@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Tell the browser to be responsive to screen width -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dashboard</title>
+	
+	<!-- CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="fix-header fix-sidebar card-no-border">
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="loader">
+			<div class="loader__figure"></div>
+			<p class="loader__label">Loading...</p>
+		</div>
+	</div>
+	<!-- Main wrapper -->
+	<div id="main-wrapper">
+		<!-- Topbar header -->
+		<header class="topbar">
+			<nav class="navbar top-navbar navbar-expand-md navbar-light">
+				<!-- Logo -->
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html">
+						<img src="images/logo.png" alt="logo" class="dark-logo" height="80" width="500" />
+					</a>
+				</div>
+				<div class="navbar-collapse">
+					<!-- toggle and nav items -->
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up waves-effect waves-dark" href="javascript:void(0)"><i class="ti-menu"></i></a> 
+						</li>
+					</ul>
+					<!-- User profile-->
+					<ul class="navbar-nav my-lg-0">
+						<li class="nav-item">
+							<a class="nav-link waves-effect waves-dark" href="#">
+								<img src="images/users/1.png" alt="user" class="profile-pic" />
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<!-- End Topbar header -->
+		<!-- Left Sidebar -->
+		<aside class="left-sidebar">
+			<!-- Sidebar scroll-->
+			<div class="scroll-sidebar">
+				<!-- Sidebar navigation-->
+				<nav class="sidebar-nav">
+					<ul id="sidebarnav">
+						<li> <a class="waves-effect waves-dark" href="dashboard.html" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard</span></a></li>
+						<li> <a class="waves-effect waves-dark" href="pages-profile.html" aria-expanded="false"><i class="mdi mdi-account-check"></i><span class="hide-menu">Profile</span></a></li>
+						<li> <a class="waves-effect waves-dark" href="table-basic.html" aria-expanded="false"><i class="mdi mdi-table"></i><span class="hide-menu">Table</span></a></li>
+						<li> <a class="waves-effect waves-dark" href="icon-material.html" aria-expanded="false"><i class="mdi mdi-emoticon"></i><span class="hide-menu">Icons</span></a></li>
+					</ul>
+				</nav>
+				<!-- End Sidebar navigation -->
+			</div>
+			<!-- End Sidebar scroll-->
+		</aside>
+		<!-- End Left Sidebar -->
+		<div class="page-wrapper">
+			<!-- Container -->
+			<div class="container-fluid">
+				<div class="row page-titles">
+					<div class="col-md-5 align-self-center">
+						<h3 class="text-themecolor">Dashboard</h3>
+					</div>
+				</div>
+			</div>
+			<!-- footer -->
+			<footer class="footer">© 2020 developed by STPI Interns</footer>
+		</div>
+	</div>
+	<!-- JavaScript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/custom.min.js"></script>
+</body>
+
+</html>
