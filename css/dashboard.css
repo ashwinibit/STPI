@@ -2981,4 +2981,5 @@ body .jqstooltip {
     
     .container .row a >div:hover{
       scale: 1.2;
+      box-shadow: black;
     }

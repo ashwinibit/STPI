@@ -24,10 +24,11 @@
 
     <?
         // import header 
-        include '../template/header.tpl.php';
+        include '../../template/header.tpl.php';
+
 
         // import sidebar
-        include '../template/sidebar.tpl.php';
+        include '../../template/sidebar.tpl.php';
     ?>
 
 
@@ -37,24 +38,24 @@
     	<div class="container-fluid">
     		<div class="row page-titles">
     			<div class="col-md-5 align-self-center">
-    				<h3 class="text-themecolor">BUILDING MODULE</h3>	
+    				<h3 class="text-themecolor">Land Detail</h3>	
     			</div>
     			<div class="col-md-12 align-self-center">
     				<div class="container">
     					<div class="row">
-							<a href="land_details/land_detail_landing.php">
+							<a href="detail_of_land_new.php">
     							<div class="column">
-    								<p>Detail Of Land </p><br>
+    								<p>Detail Of New Land </p><br>
 								</div>
 							</a>
 							<a href="http://">
     							<div class="column">
-    								<p>Details of Center and Sub-Centers</p>
+    								<p>Update Detail of Land</p>
 								</div>
 							</a>
 							<a href="http://">
     							<div class="column">
-    								<p>Proposal details</p>
+    								<p>Delete Detail Of Land</p>
 								</div>
 							</a>
 							<a href="http://">
@@ -68,9 +69,12 @@
             </div>
 			<? 
     		// import footer
-        	include '../template/footer.tpl.php';
-
-   			?>
+            include '../../template/footer.tpl.php';
+            #echo $_SERVER['DOCUMENT_ROOT'];
+            //include ($_SERVER['DOCUMENT_ROOT'].'STPI/template/footer.tpl.php');
+               
+            
+            ?>
         
     	</div>
     </div>
